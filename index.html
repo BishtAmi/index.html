@@ -1,138 +1,146 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>
-        HTML FORMS
-    </title>
-<style>
+  <title>
+    HTML FORMS
+  </title>
+  <style>
     .container {
       position: relative;
       text-align: center;
       color: white;
     }
-    
+
     .bottom-left {
       position: absolute;
       bottom: 8px;
       left: 16px;
     }
-    
+
     .top-left {
       position: absolute;
       top: 12px;
       left: 16px;
     }
-    
+
     .top-right {
       position: absolute;
       top: 12px;
       right: 16px;
     }
-    
+
     .bottom-right {
       position: absolute;
       bottom: 8px;
       right: 16px;
     }
-    
+
     .centered {
       position: absolute;
       top: 30%;
       left: 40%;
       transform: translate(-50%, -50%);
     }
-    </style>
-    <style>
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
+  </style>
+  <style>
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
 
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
+    .bottom-left {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+    }
 
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
+    .top-left {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+    }
 
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
+    .top-right {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+    }
 
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
+    .bottom-right {
+      position: absolute;
+      bottom: 8px;
+      right: 16px;
+    }
 
-.centered {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-</style>
+    .centered {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
 </head>
-<body>
-    <div class="container">
-        <img src="https://www.w3schools.com/images/picture.jpg" style="width:100%;">
-<h1 style="text-align:center;">ASB FORMS</h1>
 
-<label for="username">
-        <div class="centered">
-    <form action="">
-        <h1 style="font-size:40px;"> Sign-in</h1>
-        <input type="text" id="username" name="username" size="40" style="height:25px;" placeholder="username" required>
-         <br><br>
-</label>
-<label for="email">
-        <input type="email" id="email" name="email" size="40" style="height:25px;" placeholder="email" required>
-        <br><br>
-</label>
-       <label for="password">
-        <input type="password" id="password" name="password" size="40" style="height:25px;" placeholder="password" required>
-        <br><br>
+<body>
+  <div class="container">
+    <img src="https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?cs=srgb&dl=pexels-hasan-albari-1229861.jpg&fm=jpg" style="width:100%;">
+    <h1 style="text-align:center;">ASB FORMS</h1>
+
+    <label for="username">
+      <div class="centered">
+        <form action="">
+          <h1 style="font-size:40px;"> Sign-in</h1>
+          <input type="text" id="username" name="username" size="40" style="height:25px;" placeholder="username"
+            required>
+          <br><br>
     </label>
-</div>    
-</div>
-<hr>
-<div>
-<p><strong>Select your age</strong> </p>
-<input type="radio" name="age" value="0-18" id="option 1">
-<label for="option 1">0-18</label> <br>
-<input type="radio" name="age" value="18-60" id="option 2">
-<label for="option 2">18-60</label> <br>
-<input type="radio" name="age" value="60+" id="option 3">
-<label for="option 3">60+</label> 
-</div>
-<hr>
-<lable for="answer"> <p><strong>Answer the following questions before logging in:</strong></p>
-    <select name="question"  id="question" >
-        <option value="q1"> Name your favourite sports </option>
-        <option value="q2"> Name of your college </option>  
-        <option value="q3"> Where do you live</option>  
-        <option value="q4"> hobbies </option>  
-        </select>
-</lable>
-<p><strong>Enter your answer here:</strong></p>
-<input type="text" placeholder="answer" required>
-<hr>
-<label for="bio"><p><strong>Write something about yourself:</strong></p>
-    <br> 
-    <textarea  id="bio" name="bio" cols="30" rows="10" placeholder="about yourself.">
+    <label for="email">
+      <input type="email" id="email" name="email" size="40" style="height:25px;" placeholder="email" required>
+      <br><br>
+    </label>
+    <label for="password">
+      <input type="password" id="password" name="password" size="40" style="height:25px;" placeholder="password"
+        required>
+      <br><br>
+    </label>
+  </div>
+  </div>
+  <hr>
+  <div>
+    <p><strong>Select your age</strong> </p>
+    <input type="radio" name="age" value="0-18" id="option 1">
+    <label for="option 1">0-18</label> <br>
+    <input type="radio" name="age" value="18-60" id="option 2">
+    <label for="option 2">18-60</label> <br>
+    <input type="radio" name="age" value="60+" id="option 3">
+    <label for="option 3">60+</label>
+  </div>
+  <hr>
+  <lable for="answer">
+    <p><strong>Answer the following questions before logging in:</strong></p>
+    <select name="question" id="question">
+      <option value="q1"> Name your favourite sports </option>
+      <option value="q2"> Name of your college </option>
+      <option value="q3"> Where do you live</option>
+      <option value="q4"> hobbies </option>
+    </select>
+  </lable>
+  <p><strong>Enter your answer here:</strong></p>
+  <input type="text" placeholder="answer" required>
+  <hr>
+  <label for="bio">
+    <p><strong>Write something about yourself:</strong></p>
+    <br>
+    <textarea id="bio" name="bio" cols="30" rows="10" placeholder="about yourself.">
     </textarea>
-</label>
-<br> <br>
-<input type="submit" value="click here to submit">     <h3  style="text-align:center;"> connect with me:   <a href="https://www.linkedin.com/in/amit-singh-bisht1/"> Linkdin</a> </h3> 
-</form>
+  </label>
+  <br> <br>
+  <input type="submit" value="click here to submit">
+  <h3 style="text-align:center;"> connect with me: <a href="https://www.linkedin.com/in/amit-singh-bisht1/"> Linkdin</a>
+  </h3>
+  </form>
 </body>
 
 
